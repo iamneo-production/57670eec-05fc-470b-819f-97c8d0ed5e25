@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Titillium+Web:wght@300;400&display=swap');
+
+*{
+    padding :0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+:root{
+    --mainColor:#29335C;
+    --mainColorLight:#a9b0ca;
+    --textColor:#eee;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:80px;
+    padding:0 2rem;
+    background-color: var(--mainColor);
+    color:var(--textColor);
+}
+nav a{
+    margin:0 2rem;
+    color:var(--textColor);
+    text-decoration: none;
+}
+h2{
+    font-family: "Lucida Console", Monospace;
+    height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center
+    
+}
+body{
+    text-align:center;
+}
+input{
+    width:50%;
+    padding: 12px;
+    background-color: #f2f3fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+
+    display: inline-block;
+     width:75%;
+  height: 100px;
+  border-radius: 12px;
+}
+.btn{
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 12px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(250, 245, 245);
+    background-color: #af1717;
+    font-weight: 500;
+    font-style: sans-serif;
+    border-radius: 12px;
+    
+}
+.btn:hover{
+    background-color: rgb(25, 175, 37);
+    animation: normal;
+}
