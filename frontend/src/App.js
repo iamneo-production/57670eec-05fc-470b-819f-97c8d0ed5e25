@@ -4,6 +4,7 @@ import Track from "./Components/Navbar/Track";
 import './App.css';
 import "./Components/Navbar/styles/main.css";
 import Navbar from "./Components/Navbar/index";
+import SubmitDetails from "./Components/Navbar/SubmitDetails";
 function App(){
   return (
    <BrowserRouter>

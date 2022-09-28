@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import {
     BrowserRouter,Routes,Route,
     Link
@@ -8,15 +6,7 @@ import {
 const Navbar =()=>{
     return (
         <div>
-        <header>
-            <h1> Loan Tracker </h1>
-            <nav>
-            <a href="/#">Apply loan</a>
-            <a href="/#">Loan Status</a>
-            <a href="/#">Profile</a>
-            <a href="/#">Logout</a>
-            </nav>
-        </header>
+    
         <h2>Track Your Loan Application</h2>
             <form >
                 <input type="text"  placeholder="Enter Your Loan Id"  />
