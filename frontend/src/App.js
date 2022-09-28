@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Login from './components/Login';
+import Login from './components/login';
 import Navigate from './components/navigate';
 import Register from './components/Register';
 import Admin from './components/Admin';

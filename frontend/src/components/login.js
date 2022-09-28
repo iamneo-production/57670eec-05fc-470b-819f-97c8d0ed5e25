@@ -11,7 +11,8 @@ return (
         <form className="login-form" >
             <h1>LOGIN PAGE</h1>
             <p>
-                <input type="text" placeholder="username" name="usernamee" required/>
+                <input type="text" placeholder="username" 
+                name="usernamee" required/>
             </p>
 
             <p>
