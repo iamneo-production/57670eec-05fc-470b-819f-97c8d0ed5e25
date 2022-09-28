@@ -1,15 +1,17 @@
 import React, { useState,useEffect } from "react";
 
 import './Login.css';
+import {Link} from 'react-router-dom';
 
-
-function login(){
+function Login(){
 
     
+
+
 return (
     <div className="login-form-wrap">
 
-        <form className="login-form">
+        <form className="login-form" >
             <h1>LOGIN PAGE</h1>
             <p>
                 <input type="text"  placeholder="username" 
@@ -17,7 +19,7 @@ return (
             </p>
 
             <p>
-                <input type="password" placeholder="Password" 
+                <input type="password"placeholder="Password" 
                 name="password" required/>
             </p>
 
@@ -26,13 +28,15 @@ return (
             </p>
 
             <div className="create-account-wrap">
-            <p>Not a member? <a href="#">Create Account</a></p>
+            <p>Not a member? <Link to="/user/singup">Create Account</Link></p>
             </div>
             
         </form>
     </div>
-
 );
 }
 
-export default login;
+export default Login;
+
+
+
